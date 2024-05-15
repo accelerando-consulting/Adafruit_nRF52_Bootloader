@@ -35,17 +35,14 @@
 #define LED_PRIMARY_PIN       _PINNUM(1, 4)
 #define LED_STATE_ON          1
 
-#define LED_NEOPIXEL          _PINNUM(1, 0)
-#define NEOPIXELS_NUMBER      1
-#define BOARD_RGB_BRIGHTNESS  0x040404
+#define NEOPIXELS_NUMBER      0
 
 /*------------------------------------------------------------------*/
 /* BUTTON
  *------------------------------------------------------------------*/
-#define BUTTONS_NUMBER        3
-#define BUTTON_1              _PINNUM(0, 13)
-#define BUTTON_2              _PINNUM(0, 28)
-#define BUTTON_3              _PINNUM(1, 13)
+#define BUTTONS_NUMBER        2
+#define BUTTON_1              _PINNUM(0, 2)
+#define BUTTON_2              _PINNUM(1, 13)
 #define BUTTON_PULL           NRF_GPIO_PIN_PULLUP
 
 //--------------------------------------------------------------------+
